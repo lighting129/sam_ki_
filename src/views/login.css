@@ -1,0 +1,22 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-text {
+  display: inline-block;
+}
+.login-text1 {
+  display: inline-block;
+  text-align: center;
+}
+.login-text2 {
+  display: inline-block;
+  align-self: center;
+}
+.login-text3 {
+  display: inline-block;
+  text-align: center;
+}
