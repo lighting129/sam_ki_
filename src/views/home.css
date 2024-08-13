@@ -18,7 +18,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("/grainy-1500w.png");
+  /* background-image: url("/grainy-1500w.png"); */
   background-position: center;
 }
 .home-background {
@@ -360,7 +360,7 @@
   padding-bottom: 200px;
   background-size: cover;
   justify-content: center;
-  background-image: url("/grainy-1500w.png");
+  /* background-image: url("/grainy-1500w.png"); */
 }
 .home-container3 {
   display: contents;
