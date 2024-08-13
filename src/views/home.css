@@ -79,7 +79,8 @@
 
 .home-sectionone {
   display: flex;
-  height: fit-content;
+
+  height: 35%;
   width: 100%;
   background-color: bisque;
 }
