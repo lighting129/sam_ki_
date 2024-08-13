@@ -1,9 +1,9 @@
 :root {
-  --background-color: #ffffff;
-  --text-color: #1d1d1f;
-  --secondary-text-color: #86868b;
+  --primary-color: #1a1a1a;
+  --secondary-color: #f5f5f7;
   --accent-color: #0071e3;
-  --hover-color: #0077ed;
+  --text-color: #333;
+  --background-color: #ffffff;
 }
 
 * {
@@ -13,19 +13,17 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
-  line-height: 1.47059;
-  font-weight: 400;
-  letter-spacing: -0.022em;
+  line-height: 1.5;
 }
 
 .home-container {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 22px;
+  padding: 0 20px;
 }
 
 /* Navbar styles */
@@ -34,96 +32,98 @@ body {
   backdrop-filter: saturate(180%) blur(20px);
   position: fixed;
   width: 100%;
-  z-index: 9999;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .home-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 44px;
-  padding: 0 22px;
+  height: 60px;
+  padding: 0 20px;
 }
 
 .home-text {
-  font-size: 21px;
-  font-weight: 400;
-  color: var(--text-color);
-  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 .home-desktop-menu {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .home-nav {
   display: flex;
-  gap: 28px;
+  gap: 20px;
 }
 
 .navLink {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 12px;
-  font-weight: 400;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .navLink:hover {
-  opacity: 1;
+  color: var(--accent-color);
 }
 
-.home-register,
-.home-navlink {
-  font-size: 12px;
-  line-height: 1.33337;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  min-width: 23px;
-  padding: 8px 16px;
-  border-radius: 980px;
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 30px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .home-register {
   background-color: var(--accent-color);
-  color: #fff;
+  color: white;
 }
 
 .home-register:hover {
-  background-color: var(--hover-color);
+  background-color: #005bbf;
 }
 
 .home-navlink {
-  color: var(--text-color);
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.home-navlink:hover {
+  background-color: var(--accent-color);
+  color: white;
 }
 
 /* Hero section */
 .sectionone {
-  padding-top: 44px;
+  padding-top: 80px;
   text-align: center;
+  background-color: var(--secondary-color);
 }
 
 .home-hero-content {
-  padding: 64px 0;
+  padding: 100px 0;
 }
 
 .home-caption1 {
-  font-size: 56px;
-  line-height: 1.07143;
-  font-weight: 600;
-  letter-spacing: -0.005em;
-  margin-bottom: 6px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--primary-color);
 }
 
 .home-text09 {
-  font-size: 28px;
-  line-height: 1.10722;
-  font-weight: 400;
-  letter-spacing: 0.004em;
-  color: var(--secondary-text-color);
+  font-size: 24px;
+  color: var(--text-color);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* Notes section */
@@ -135,6 +135,7 @@ body {
 .home-second {
   display: flex;
   align-items: center;
+  gap: 50px;
   margin-bottom: 100px;
 }
 
@@ -145,11 +146,10 @@ body {
 
 .home-header1,
 .home-header2 {
-  font-size: 48px;
-  line-height: 1.08349;
-  font-weight: 600;
-  letter-spacing: -0.003em;
-  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--primary-color);
 }
 
 .home-list {
@@ -162,13 +162,13 @@ body {
 .home-note1 {
   display: flex;
   align-items: flex-start;
-  gap: 14px;
+  gap: 15px;
 }
 
 .home-point,
 .home-point1 {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background-color: var(--accent-color);
   border-radius: 50%;
   margin-top: 8px;
@@ -176,34 +176,43 @@ body {
 
 .home-text14,
 .home-text15 {
-  font-size: 21px;
-  line-height: 1.381;
-  font-weight: 400;
-  letter-spacing: 0.011em;
+  font-size: 18px;
+  color: var(--text-color);
 }
 
 .image-notes {
   flex: 1;
   max-width: 50%;
   object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive design */
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 768px) {
   .home-navbar {
-    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
   }
 
   .home-desktop-menu {
-    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .home-nav {
+    flex-direction: column;
+    align-items: center;
   }
 
   .home-caption1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .home-text09 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .home-first,
@@ -214,12 +223,11 @@ body {
   .home-content,
   .home-content1 {
     text-align: center;
-    margin-bottom: 40px;
   }
 
   .home-header1,
   .home-header2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .image-notes {
