@@ -35,9 +35,9 @@
   background-color: #ffffff;
 }
 .home-image {
-  left: 75%;
+  left: 65%;
   bottom: 50%;
-  height: 30%;
+  height: 45%;
   position: absolute;
   object-fit: cover;
 }
@@ -215,6 +215,7 @@
   font-weight: 600;
   line-height: 24px;
   text-transform: uppercase;
+  color: #000000;
 }
 .home-caption1 {
   color: rgb(255, 255, 255);
