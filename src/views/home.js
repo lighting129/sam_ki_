@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>OnConf template</title>
+        <title>god bless me</title>
         <meta property="og:title" content="OnConf template" />
       </Helmet>
       <section className="home-hero">

@@ -32,7 +32,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #de9595;
+  background-color: #fefefe;
 }
 .home-image {
   right: 0px;
@@ -368,7 +368,7 @@
 .home-container5 {
   display: contents;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .home-desktop-menu {
     display: none;
   }
@@ -400,7 +400,7 @@
     padding-bottom: var(--dl-space-space-threeunits);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .home-hero {
     height: 60vh;
     padding-top: var(--dl-space-space-oneandhalfunits);
@@ -497,7 +497,7 @@
     padding-bottom: var(--dl-space-space-threeunits);
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .home-mobile-menu {
     padding: 16px;
   }
