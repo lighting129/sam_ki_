@@ -92,7 +92,7 @@ body {
 }
 
 .home-navlink {
-  color: var(--secondary-color);
+  color: var(--accent-color);
   border: 2px solid var(--secondary-color);
 }
 
