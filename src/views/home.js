@@ -99,45 +99,6 @@ const Home = (props) => {
           <img alt="image" src="/notes-2-1400w.png" className="image-notes" />
         </div>
       </section>
-
-      <div>
-        <div className="home-container3">
-          <Script
-            html={`<script>
-    ScrollReveal().reveal('.speaker');
-    ScrollReveal().reveal('.image-notes');
-</script>`}
-          ></Script>
-        </div>
-      </div>
-      <div>
-        <div className="home-container5">
-          <Script
-            html={`<style>
-#scrollbar::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#scrollbar::-webkit-scrollbar
-{
-	height: 12px;
-	background-color: #F5F5F5;
-	border-radius: 10px;
-}
-
-#scrollbar::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
-}
-</style>`}
-          ></Script>
-        </div>
-      </div>
     </div>
   );
 };
