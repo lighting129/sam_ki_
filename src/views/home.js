@@ -49,37 +49,6 @@ const Home = (props) => {
               </Link>
             </div>
             <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
-            <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-              <div
-                data-thq="thq-mobile-menu-nav"
-                data-role="Nav"
-                className="home-nav1"
-              >
-                <div className="home-container1">
-                  <h2 className="home-text02">OnConf</h2>
-                  <div data-thq="thq-close-menu" className="home-menu-close">
-                    <svg viewBox="0 0 1024 1024" className="home-icon04">
-                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav
-                  data-thq="thq-mobile-menu-nav-links"
-                  data-role="Nav"
-                  className="home-nav2"
-                >
-                  <span className="navLink home-text03">About</span>
-                  <span className="navLink home-text04">Features</span>
-                  <span className="navLink home-text05">Pricing</span>
-                  <span className="navLink home-text06">Team</span>
-                  <span className="navLink home-text07">Blog</span>
-                </nav>
-                <div className="home-button-container">
-                  <button className="home-login button">Login</button>
-                  <button className="button home-register1">Register</button>
-                </div>
-              </div>
-            </div>
           </header>
         </header>
         <div className="home-hero-content">
@@ -93,18 +62,6 @@ const Home = (props) => {
             </p>
           </div>
         </div>
-        <Link to="/sign-up" className="home-register3 button">
-          <span>Register now</span>
-          <svg viewBox="0 0 1024 1024" className="home-icon12">
-            <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
-          </svg>
-        </Link>
-        <Link to="/sign-up" className="home-register4 button">
-          <span>Register now</span>
-          <svg viewBox="0 0 1024 1024" className="home-icon14">
-            <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
-          </svg>
-        </Link>
       </section>
       <section className="home-notes">
         <div className="home-first">
