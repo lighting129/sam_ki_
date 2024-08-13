@@ -98,7 +98,7 @@ body {
 
 .home-navlink:hover {
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  color: #2980b9;
 }
 
 /* Hero section */
