@@ -78,15 +78,7 @@ const Home = (props) => {
                   <button className="home-login button">Login</button>
                   <button className="button home-register1">Register</button>
                 </div>
-                <div className="home-icon-group">
-                  <div className="home-icons"></div>
-                </div>
               </div>
-              <img
-                alt="image"
-                src="/quote-background.svg"
-                className="home-background1"
-              />
             </div>
           </header>
         </header>
