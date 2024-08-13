@@ -12,6 +12,10 @@ const Home = () => {
           name="description"
           content="Get real-time data updates and forecast with Xmart"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
       </Helmet>
 
       <header className="home-header">
@@ -39,12 +43,15 @@ const Home = () => {
       <main>
         <section className="sectionone">
           <div className="home-hero-content">
-            <h2 className="home-caption1">Real-time Data Analytics</h2>
+            <h2 className="home-caption1">
+              Empower Your Business with Real-time Analytics
+            </h2>
             <p className="home-text09">
-              Get instant updates and accurate forecasts for your business
+              Get instant updates, accurate forecasts, and actionable insights
+              to drive your business forward
             </p>
-            <Link to="/sign-up" className="home-register button">
-              Get Started
+            <Link to="/sign-up" className="home-hero-cta button">
+              Start Your Free Trial
             </Link>
           </div>
         </section>
@@ -52,18 +59,18 @@ const Home = () => {
         <section className="home-notes">
           <div className="home-first">
             <div className="home-content">
-              <h2 className="home-header1">Get real-time data analytics</h2>
+              <h2 className="home-header1">Revolutionize Your Data Analysis</h2>
               <div className="home-list">
                 <div className="home-note">
                   <div className="home-point"></div>
                   <p className="home-text14">
-                    Modern deep learning techniques for real-time updates
+                    Harness the power of advanced AI for real-time insights
                   </p>
                 </div>
                 <div className="home-note1">
                   <div className="home-point1"></div>
                   <p className="home-text15">
-                    Comprehensive dashboard for all necessary entities
+                    Intuitive dashboard for comprehensive business overview
                   </p>
                 </div>
               </div>
@@ -83,10 +90,14 @@ const Home = () => {
             />
             <div className="home-content1">
               <h2 className="home-header2">
-                Forecast products with our advanced tool
+                Predict Market Trends with Precision
               </h2>
+              <p className="home-text15">
+                Our advanced forecasting tool uses machine learning to provide
+                accurate predictions, helping you stay ahead of the competition.
+              </p>
               <Link to="/sign-up" className="home-register button">
-                Start Forecasting
+                Explore Forecasting
               </Link>
             </div>
           </div>
