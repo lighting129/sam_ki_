@@ -40,7 +40,6 @@ const Home = (props) => {
                 Login
               </Link>
             </div>
-            <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
           </header>
         </header>
       </section>
