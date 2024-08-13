@@ -52,7 +52,7 @@ const Home = (props) => {
               <span className="home-text09">
                 real time data updates and forecast
               </span>
-              <br className="home-text10"></br>
+
               <br></br>
             </p>
           </div>

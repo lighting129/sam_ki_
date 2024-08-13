@@ -226,20 +226,18 @@
 .home-text09 {
   font-size: 24px;
   font-family: "Arial";
+  font-style: italic;
+  color: bisque;
 }
 .home-text10 {
   font-size: 24px;
 }
-.home-register3 {
-  text-decoration: none;
-}
+
 .home-icon12 {
   width: 16px;
   height: 16px;
 }
-.home-register4 {
-  text-decoration: none;
-}
+
 .home-icon14 {
   width: 16px;
   height: 16px;
