@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Script from 'dangerous-html/react'
-import { Helmet } from 'react-helmet'
+import Script from "dangerous-html/react";
+import { Helmet } from "react-helmet";
 
-import './home.css'
+import "./home.css";
 
 const Home = (props) => {
   return (
@@ -24,7 +24,7 @@ const Home = (props) => {
         </div>
         <header className="home-header">
           <header data-thq="thq-navbar" className="home-navbar">
-            <h2 className="home-text">OnConf</h2>
+            <h2 className="home-text"></h2>
             <div
               data-thq="thq-navbar-nav"
               data-role="Nav"
@@ -225,7 +225,7 @@ const Home = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
