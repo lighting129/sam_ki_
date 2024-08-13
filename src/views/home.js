@@ -44,7 +44,7 @@ const Home = (props) => {
           </header>
         </header>
       </section>
-      <section>
+      <section className="sectionone">
         <div className="home-background">
           <img alt="image" src="/image.png" className="home-image" />
         </div>
