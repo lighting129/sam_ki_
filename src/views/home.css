@@ -1,20 +1,20 @@
-/* General styles */
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #e74c3c;
-  --accent-color: #2ecc71;
-  --background-color: #ecf0f1;
-  --text-color: #34495e;
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --background-color: #f5f7fa;
+  --text-color: #333333;
   --light-text-color: #ffffff;
   --navbar-height: 70px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
   margin: 0;
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
+  line-height: 1.6;
 }
 
 .home-container {
@@ -43,11 +43,10 @@ body {
 }
 
 .home-text {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
   color: var(--light-text-color);
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -66,59 +65,44 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  transition: all 0.3s ease;
-  position: relative;
-}
-
-.navLink::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: var(--accent-color);
-  transition: width 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.8;
 }
 
 .navLink:hover {
-  color: var(--accent-color);
-}
-
-.navLink:hover::after {
-  width: 100%;
+  opacity: 1;
 }
 
 .home-register,
 .home-navlink {
   padding: 10px 20px;
-  border-radius: 25px;
-  font-weight: 600;
+  border-radius: 4px;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .home-register {
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   color: var(--light-text-color);
   margin-left: 20px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 
 .home-register:hover {
-  background-color: #c0392b;
-  transform: translateY(-2px);
+  background-color: #2980b9;
 }
 
 .home-navlink {
-  background-color: var(--accent-color);
+  background-color: transparent;
   color: var(--light-text-color);
+  border: 1px solid var(--light-text-color);
 }
 
 .home-navlink:hover {
-  background-color: #27ae60;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .home-icon {
@@ -127,7 +111,7 @@ body {
   fill: var(--light-text-color);
 }
 
-/* Basic styles for other sections */
+/* Hero section styles */
 .sectionone {
   padding-top: var(--navbar-height);
   min-height: calc(100vh - var(--navbar-height));
@@ -139,19 +123,18 @@ body {
 
 .home-hero-content {
   text-align: center;
-  background-color: rgba(52, 152, 219, 0.1);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
 }
 
 .home-caption1 {
-  font-size: 42px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
+/* Notes section styles */
 .home-notes {
   padding: 80px 0;
 }
@@ -162,8 +145,8 @@ body {
   align-items: center;
   margin-bottom: 80px;
   background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
@@ -178,6 +161,7 @@ body {
   font-size: 32px;
   color: var(--primary-color);
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .home-list {
@@ -189,32 +173,29 @@ body {
 .home-note,
 .home-note1 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
 }
 
 .home-point,
 .home-point1 {
-  width: 10px;
-  height: 10px;
-  background-color: var(--secondary-color);
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-color);
   border-radius: 50%;
+  margin-top: 8px;
 }
 
 .home-text14,
 .home-text15 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .image-notes {
   max-width: 50%;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.image-notes:hover {
-  transform: scale(1.05);
+  object-fit: cover;
+  height: 100%;
 }
 
 /* Responsive design */
@@ -256,14 +237,15 @@ body {
 
   .home-content,
   .home-content1 {
-    padding: 20px;
+    padding: 30px;
   }
 
   .image-notes {
     max-width: 100%;
+    height: 200px;
   }
 
   .home-caption1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 }
