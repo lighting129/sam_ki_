@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>god bless me</title>
+        <title>Xmart</title>
         <meta property="og:title" content="OnConf template" />
       </Helmet>
       <section className="home-hero">
@@ -24,7 +24,7 @@ const Home = (props) => {
         </div>
         <header className="home-header">
           <header data-thq="thq-navbar" className="home-navbar">
-            <h2 className="home-text"></h2>
+            <h2 className="home-text">Xmart</h2>
             <div
               data-thq="thq-navbar-nav"
               data-role="Nav"
