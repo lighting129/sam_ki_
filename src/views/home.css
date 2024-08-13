@@ -32,12 +32,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #79026d;
+  background-color: #ffffff;
 }
 .home-image {
-  right: 0px;
-  bottom: 0px;
-  height: 90%;
+  right: 75%;
+  bottom: 50%;
+  height: 30%;
   position: absolute;
   object-fit: cover;
 }

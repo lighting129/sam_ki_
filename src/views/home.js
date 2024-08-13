@@ -16,7 +16,6 @@ const Home = (props) => {
       <section className="home-hero">
         <div className="home-background">
           <img alt="image" src="/image.png" className="home-image" />
-          <img alt="image" src="/line-background.svg" className="home-image1" />
         </div>
         <header className="home-header">
           <header data-thq="thq-navbar" className="home-navbar">
