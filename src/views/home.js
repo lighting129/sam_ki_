@@ -51,7 +51,7 @@ const Home = () => {
               to drive your business forward
             </p>
             <Link to="/sign-up" className="home-hero-cta button">
-              Start Your Free Trial
+              Get Started
             </Link>
           </div>
         </section>
