@@ -99,7 +99,7 @@ const Home = (props) => {
           <img alt="image" src="/notes-2-1400w.png" className="image-notes" />
         </div>
       </section>
-      <section className="home-schedule"></section>
+
       <div>
         <div className="home-container3">
           <Script
