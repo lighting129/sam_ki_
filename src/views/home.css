@@ -37,7 +37,8 @@
 .home-image {
   left: 65%;
   bottom: 50%;
-  height: 45%;
+  height: 100%;
+  width: 50%;
   position: absolute;
   object-fit: cover;
 }
@@ -227,7 +228,7 @@
   font-size: 24px;
   font-family: "Arial";
   font-style: italic;
-  color: bisque;
+  color: rgb(0, 0, 0);
 }
 .home-text10 {
   font-size: 24px;
