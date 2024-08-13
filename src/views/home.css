@@ -74,11 +74,12 @@
 }
 
 .home-sectionone {
-  display: flex;
-
-  height: 35%;
   width: 100%;
-  background-color: rgb(62, 153, 142);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
 }
 .home-register {
   text-decoration: none;
