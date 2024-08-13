@@ -48,11 +48,7 @@ const Home = (props) => {
                 Login
               </Link>
             </div>
-            <div data-thq="thq-burger-menu" className="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="home-icon02">
-                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-              </svg>
-            </div>
+            <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
             <div data-thq="thq-mobile-menu" className="home-mobile-menu">
               <div
                 data-thq="thq-mobile-menu-nav"
@@ -83,14 +79,7 @@ const Home = (props) => {
                   <button className="button home-register1">Register</button>
                 </div>
                 <div className="home-icon-group">
-                  <div className="home-icons">
-                    <svg
-                      viewBox="0 0 602.2582857142856 1024"
-                      className="home-icon10"
-                    >
-                      <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-                    </svg>
-                  </div>
+                  <div className="home-icons"></div>
                 </div>
               </div>
               <img
@@ -103,15 +92,9 @@ const Home = (props) => {
         </header>
         <div className="home-hero-content">
           <div className="home-caption">
-            <Link
-              to="/sign-up"
-              className="home-register2 button-style-1 button"
-            >
-              <span className="home-text08"></span>
-            </Link>
             <p className="home-caption1">
               <span className="home-text09">
-                real time data updates and forecasting
+                real time data updates and forecast
               </span>
               <br className="home-text10"></br>
               <br></br>
