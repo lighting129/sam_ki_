@@ -14,9 +14,6 @@ const Home = (props) => {
         <meta property="og:title" content="OnConf template" />
       </Helmet>
       <section className="home-hero">
-        <div className="home-background">
-          <img alt="image" src="/image.png" className="home-image" />
-        </div>
         <header className="home-header">
           <header data-thq="thq-navbar" className="home-navbar">
             <h2 className="home-text">Xmart</h2>
@@ -46,6 +43,11 @@ const Home = (props) => {
             <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
           </header>
         </header>
+      </section>
+      <section>
+        <div className="home-background">
+          <img alt="image" src="/image.png" className="home-image" />
+        </div>
 
         <div className="home-hero-content">
           <div className="home-caption">
