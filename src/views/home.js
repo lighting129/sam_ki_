@@ -14,14 +14,6 @@ const Home = (props) => {
         <meta property="og:title" content="OnConf template" />
       </Helmet>
       <section className="home-hero">
-        <div className="home-background">
-          <img
-            alt="image"
-            src="/circle-background.svg"
-            className="home-image"
-          />
-          <img alt="image" src="/line-background.svg" className="home-image1" />
-        </div>
         <header className="home-header">
           <header data-thq="thq-navbar" className="home-navbar">
             <h2 className="home-text">Xmart</h2>
