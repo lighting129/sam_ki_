@@ -1,36 +1,36 @@
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db;
-  --background-color: #f5f7fa;
-  --text-color: #333333;
-  --light-text-color: #ffffff;
-  --navbar-height: 70px;
+  --primary-color: #1a1a2e;
+  --secondary-color: #16213e;
+  --accent-color: #0f3460;
+  --text-color: #e94560;
+  --light-text: #f1f1f1;
+  --background: #f8f8f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    sans-serif;
-  margin: 0;
-  padding: 0;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--primary-color);
   line-height: 1.6;
 }
 
 .home-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 2rem;
 }
 
 /* Navbar styles */
 .home-header {
   background-color: var(--primary-color);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
   z-index: 1000;
 }
 
@@ -38,14 +38,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: var(--navbar-height);
-  padding: 0 5%;
+  padding: 1rem 0;
 }
 
 .home-text {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--light-text-color);
+  color: var(--light-text);
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -57,25 +56,24 @@ body {
 
 .home-nav {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
 }
 
 .navLink {
-  color: var(--light-text-color);
+  color: var(--light-text);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  transition: opacity 0.3s ease;
-  opacity: 0.8;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 .navLink:hover {
-  opacity: 1;
+  color: var(--text-color);
 }
 
 .home-register,
 .home-navlink {
-  padding: 10px 20px;
+  padding: 0.6rem 1.2rem;
   border-radius: 4px;
   font-weight: 500;
   text-decoration: none;
@@ -83,150 +81,146 @@ body {
 }
 
 .home-register {
-  background-color: var(--accent-color);
-  color: var(--light-text-color);
-  margin-left: 20px;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  background-color: var(--text-color);
+  color: var(--light-text);
+  margin-left: 1rem;
 }
 
 .home-register:hover {
-  background-color: #2980b9;
+  background-color: #d13652;
 }
 
 .home-navlink {
-  background-color: transparent;
-  color: var(--light-text-color);
-  border: 1px solid var(--light-text-color);
+  color: var(--light-text);
+  border: 1px solid var(--light-text);
 }
 
 .home-navlink:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--light-text);
+  color: var(--primary-color);
 }
 
-.home-icon {
-  width: 16px;
-  height: 16px;
-  fill: var(--light-text-color);
-}
-
-/* Hero section styles */
+/* Hero section */
 .sectionone {
-  padding-top: var(--navbar-height);
-  min-height: calc(100vh - var(--navbar-height));
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
+  padding: 6rem 0;
 }
 
 .home-hero-content {
-  text-align: center;
   max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--light-text);
 }
 
 .home-caption1 {
-  font-size: 48px;
+  font-size: 3.5rem;
   font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
   line-height: 1.2;
 }
 
-/* Notes section styles */
+.home-text09 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Notes section */
 .home-notes {
-  padding: 80px 0;
+  padding: 6rem 0;
 }
 
 .home-first,
 .home-second {
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
-  background-color: #ffffff;
+  margin-bottom: 6rem;
+  background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .home-content,
 .home-content1 {
   flex: 1;
-  padding: 40px;
+  padding: 4rem;
 }
 
 .home-header1,
 .home-header2 {
-  font-size: 32px;
-  color: var(--primary-color);
-  margin-bottom: 20px;
-  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
 }
 
 .home-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .home-note,
 .home-note1 {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .home-point,
 .home-point1 {
-  width: 8px;
-  height: 8px;
-  background-color: var(--accent-color);
+  width: 12px;
+  height: 12px;
+  background-color: var(--text-color);
   border-radius: 50%;
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .home-text14,
 .home-text15 {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
 .image-notes {
-  max-width: 50%;
-  object-fit: cover;
+  flex: 1;
   height: 100%;
+  object-fit: cover;
 }
 
 /* Responsive design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .home-navbar {
     flex-direction: column;
-    height: auto;
-    padding: 20px 5%;
+    align-items: flex-start;
   }
 
   .home-desktop-menu {
+    margin-top: 1rem;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin-top: 20px;
   }
 
   .home-nav {
     flex-direction: column;
     width: 100%;
+    margin-bottom: 1rem;
   }
 
   .navLink {
-    padding: 10px 0;
+    padding: 0.5rem 0;
   }
 
   .home-register,
   .home-navlink {
     width: 100%;
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 0.5rem;
     text-align: center;
   }
 
@@ -237,15 +231,15 @@ body {
 
   .home-content,
   .home-content1 {
-    padding: 30px;
+    padding: 3rem 2rem;
   }
 
   .image-notes {
-    max-width: 100%;
-    height: 200px;
+    width: 100%;
+    height: 300px;
   }
 
   .home-caption1 {
-    font-size: 36px;
+    font-size: 2.5rem;
   }
 }
