@@ -46,19 +46,18 @@ const Home = (props) => {
             <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
           </header>
         </header>
-
-        <div className="home-hero-content">
+        <div>
           <div className="home-background">
             <img alt="image" src="/image.png" className="home-image" />
           </div>
-          <div className="home-caption">
-            <p className="home-caption1">
-              <span className="home-text09">
-                real time data updates and forecast
-              </span>
-
-              <br></br>
-            </p>
+          <div className="home-hero-content">
+            <div className="home-caption">
+              <p className="home-caption1">
+                <span className="home-text09">
+                  real time data updates and forecast
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </section>
